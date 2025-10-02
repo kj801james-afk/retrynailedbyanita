@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - nailedbyalita | Professional Nail Artist Booking</title>
+    <meta name="description" content="Book your nail appointment with nailedbyalita. Professional nail artist offering gel manicures, nail art, and acrylic services. Easy online booking system.">
+    <meta name="keywords" content="book nail appointment, nail artist booking, manicure appointment, gel nails booking, nail salon booking">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>nailedbyalita</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="book.html" class="nav-link active">Book</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Booking Header -->
+    <section class="booking-header">
+        <div class="container">
+            <h1>Book Your Appointment</h1>
+            <p>Schedule your nail service with our professional nail artist. Choose from our range of services and find the perfect time slot.</p>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-form-section">
+        <div class="container">
+            <div class="booking-container">
+                <div class="booking-form">
+                    <h2>Appointment Details</h2>
+                    <form id="bookingForm" class="form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Type *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="classic-manicure">Classic Manicure - $25</option>
+                                <option value="gel-manicure">Gel Manicure - $45</option>
+                                <option value="gel-pedicure">Gel Pedicure - $55</option>
+                                <option value="acrylic-full-set">Acrylic Full Set - $65</option>
+                                <option value="gel-extensions">Gel Extensions - $75</option>
+                                <option value="fill-refill">Fill/Refill - $45</option>
+                                <option value="bridal-package">Bridal Package - $120</option>
+                                <option value="nail-removal">Nail Removal - $20</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="addons">Add-On Services</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="addons" value="cuticle-oil">
+                                    <span>Cuticle Oil Treatment (+$10)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="addons" value="hand-massage">
+                                    <span>Hand Massage (+$15)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="addons" value="nail-strengthening">
+                                    <span>Nail Strengthening (+$20)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="addons" value="french-tips">
+                                    <span>French Tips (+$10)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="addons" value="glitter-accent">
+                                    <span>Glitter Accent (+$15)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="addons" value="ombre-effect">
+                                    <span>Ombré Effect (+$20)</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="nail-art">Nail Art Design</label>
+                            <select id="nail-art" name="nail-art">
+                                <option value="">No nail art</option>
+                                <option value="simple">Simple Nail Art (+$15)</option>
+                                <option value="complex">Complex Nail Art (+$25)</option>
+                                <option value="premium">Premium Nail Art (+$35)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date">Preferred Date *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="time">Preferred Time *</label>
+                            <select id="time" name="time" required>
+                                <option value="">Select a time</option>
+                                <option value="9:00 AM">9:00 AM</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="1:00 PM">1:00 PM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="3:00 PM">3:00 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                                <option value="5:00 PM">5:00 PM</option>
+                                <option value="6:00 PM">6:00 PM</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="notes">Special Requests or Notes</label>
+                            <textarea id="notes" name="notes" rows="4" placeholder="Any specific requests, allergies, or additional information..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="terms" required>
+                                <span>I agree to the <a href="#" class="link">Terms of Service</a> and <a href="#" class="link">Privacy Policy</a> *</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Book Appointment</button>
+                    </form>
+                </div>
+                
+                <div class="booking-info">
+                    <h3>Booking Information</h3>
+                    <div class="info-card">
+                        <h4><i class="fas fa-clock"></i> Hours</h4>
+                        <p>Monday - Friday: 9:00 AM - 7:00 PM<br>
+                        Saturday: 9:00 AM - 5:00 PM<br>
+                        Sunday: 10:00 AM - 4:00 PM</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-calendar-alt"></i> Booking Policy</h4>
+                        <p>• 24-hour cancellation notice required<br>
+                        • Late arrivals may result in shortened service<br>
+                        • First-time clients arrive 10 minutes early</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-phone"></i> Need Help?</h4>
+                        <p>Call us at (385) 499 7792 or<br>
+                        <a href="contact.html" class="link">Send us a message</a></p>
+                    </div>
+                    
+                    <div class="social-booking">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                            <a href="#" class="social-link"><i class="fab fa-tiktok"></i> TikTok</a>
+                        </div>
+                        <p>DM us for quick booking or questions!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternative Booking Methods -->
+    <section class="alternative-booking">
+        <div class="container">
+            <h2>Other Ways to Book</h2>
+            <div class="booking-methods">
+                <div class="method-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>Speak directly with our team</p>
+                    <a href="tel:3854997792" class="btn btn-outline">(385) 499 7792</a>
+                </div>
+                <div class="method-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram DM</h3>
+                    <p>Quick booking via Instagram</p>
+                    <a href="#" class="btn btn-outline">@lunanails</a>
+                </div>
+                <div class="method-card">
+                    <i class="fab fa-tiktok"></i>
+                    <h3>TikTok DM</h3>
+                    <p>Book through TikTok messages</p>
+                    <a href="#" class="btn btn-outline">@lunanails</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>nailedbyalita</h3>
+                    <p>Professional nail artist creating beautiful, long-lasting nail designs.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Gel Manicures</a></li>
+                        <li><a href="services.html">Nail Art</a></li>
+                        <li><a href="services.html">Acrylic Nails</a></li>
+                        <li><a href="services.html">Nail Removal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="book.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="services.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (385) 499 7792</p>
+                    <p><i class="fas fa-envelope"></i> hello@lunanails.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kearns, UT</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 nailedbyalita. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Art Gallery - nailedbyalita | Professional Nail Artist Portfolio</title>
+    <meta name="description" content="Explore our stunning nail art gallery featuring gel nails, acrylic designs, minimalist styles, and seasonal collections. Professional nail artist portfolio showcasing beautiful nail designs.">
+    <meta name="keywords" content="nail art gallery, nail designs, gel nails, acrylic nails, nail artist portfolio, manicure gallery, nail art inspiration">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>nailedbyalita</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="book.html" class="nav-link">Book</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1>Nail Art Gallery</h1>
+            <p>Discover our collection of stunning nail designs, from elegant gel manicures to intricate nail art masterpieces.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="gel">Gel Nails</button>
+                <button class="filter-btn" data-filter="acrylic">Acrylic</button>
+                <button class="filter-btn" data-filter="nail-art">Nail Art</button>
+                <button class="filter-btn" data-filter="minimalist">Minimalist</button>
+                <button class="filter-btn" data-filter="seasonal">Seasonal</button>
+                <button class="filter-btn" data-filter="toes">Toes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-items">
+                <!-- Gel Nails Section -->
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="images/gel/gel-1.jpg" alt="Floral French tips with V-shaped pink tips" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Floral French Tips</h3>
+                            <p>Elegant V-shaped pink tips with floral details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="images/gel/gel-2.jpg" alt="Blue French tips with curved white tips" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Blue French Tips</h3>
+                            <p>Classic gel French manicure with blue accents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="images/gel/gel-3.jpg" alt="Nude base with white French tips and small charms" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Charmed French</h3>
+                            <p>Nude base with white tips and delicate charms</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="gel">
+                    <div class="gallery-image">
+                        <img src="images/gel/gel-4.jpg" alt="Gel nail design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Gel Design</h3>
+                            <p>Beautiful gel manicure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acrylic Nails Section -->
+                <div class="gallery-item" data-category="acrylic">
+                    <div class="gallery-image">
+                        <img src="images/acrylic/acrylic-1.jpg" alt="Long coffin nails with cow print and Hello Kitty 3D elements" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Cow Print & Hello Kitty</h3>
+                            <p>Playful cow print with 3D Hello Kitty elements</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="acrylic">
+                    <div class="gallery-image">
+                        <img src="images/acrylic/acrylic-2.jpg" alt="Extreme length with gothic charms, skulls, and heavy embellishments" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Gothic Extensions</h3>
+                            <p>Dramatic length with gothic charms and skulls</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="acrylic">
+                    <div class="gallery-image">
+                        <img src="images/acrylic/acrylic-3.jpg" alt="Long stiletto nails with spikes and chains" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Stiletto Spikes</h3>
+                            <p>Long stiletto nails with spikes and chains</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="acrylic">
+                    <div class="gallery-image">
+                        <img src="images/acrylic/acrylic-4.jpg" alt="Acrylic nail design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Acrylic Design</h3>
+                            <p>Beautiful acrylic nail extension</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nail Art Section -->
+                <div class="gallery-item" data-category="nail-art">
+                    <div class="gallery-image">
+                        <img src="images/nail-art/nail-art-1.jpg" alt="Intricate floral designs with magenta French tips" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Floral Magenta</h3>
+                            <p>Intricate floral designs with magenta French tips</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nail-art">
+                    <div class="gallery-image">
+                        <img src="images/nail-art/nail-art-2.jpg" alt="Marble effect with gold embellishments" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Marble Gold</h3>
+                            <p>Luxurious marble effect with gold embellishments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nail-art">
+                    <div class="gallery-image">
+                        <img src="images/nail-art/nail-art-3.jpg" alt="Gothic crosses, evil eyes, and blood splatter effects" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Gothic Art</h3>
+                            <p>Dark gothic designs with crosses and blood effects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nail-art">
+                    <div class="gallery-image">
+                        <img src="images/nail-art/nail-art-4.jpg" alt="Intricate nail art design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Artistic Design</h3>
+                            <p>Creative nail art with unique patterns</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Minimalist Section -->
+                <div class="gallery-item" data-category="minimalist">
+                    <div class="gallery-image">
+                        <img src="images/minimalist/minimalist-1.jpg" alt="Classic nude French tips with subtle gold accents" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Classic French</h3>
+                            <p>Timeless nude French tips with gold accents</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="minimalist">
+                    <div class="gallery-image">
+                        <img src="images/minimalist/minimalist-2.jpg" alt="Simple nude base with black French tips and silver crosses" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Gothic Minimal</h3>
+                            <p>Simple black French tips with silver crosses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="minimalist">
+                    <div class="gallery-image">
+                        <img src="images/minimalist/minimalist-3.jpg" alt="Minimalist nail design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Clean Minimal</h3>
+                            <p>Simple and elegant minimalist design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seasonal Section -->
+                <div class="gallery-item" data-category="seasonal">
+                    <div class="gallery-image">
+                        <img src="images/seasonal/seasonal-1.jpg" alt="Halloween-themed with green, purple, pumpkins, and spider webs" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Halloween Spooky</h3>
+                            <p>Halloween-themed with pumpkins and spider webs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="seasonal">
+                    <div class="gallery-image">
+                        <img src="images/seasonal/seasonal-2.jpg" alt="Spring/summer pastels with flowers and butterflies" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Spring Pastels</h3>
+                            <p>Fresh spring designs with flowers and butterflies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="seasonal">
+                    <div class="gallery-image">
+                        <img src="images/seasonal/seasonal-3.jpg" alt="Seasonal nail design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Seasonal Design</h3>
+                            <p>Beautiful seasonal themed nails</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Toes Section -->
+                <div class="gallery-item" data-category="toes">
+                    <div class="gallery-image">
+                        <img src="images/toes/toes-1.jpg" alt="Coordinated hand and foot set with emerald green and gold" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Emerald & Gold</h3>
+                            <p>Coordinated hand and foot set with emerald green and gold</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="toes">
+                    <div class="gallery-image">
+                        <img src="images/toes/toes-2.jpg" alt="Matching black French tips on hands and feet" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Matching French</h3>
+                            <p>Coordinated black French tips on hands and feet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="toes">
+                    <div class="gallery-image">
+                        <img src="images/toes/toes-3.jpg" alt="Toe nail design" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Toe Design</h3>
+                            <p>Beautiful coordinated toe design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram-style Popup Modal -->
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title">Gallery</h2>
+                <div class="modal-nav">
+                    <button id="prev-btn" class="nav-btn">❮</button>
+                    <button id="next-btn" class="nav-btn">❯</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="">
+                    <div class="modal-info">
+                        <h3 id="modal-image-title"></h3>
+                        <p id="modal-image-desc"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="thumbnail-preview" id="thumbnail-preview">
+                    <!-- Thumbnails will be generated by JavaScript -->
+                </div>
+                <div class="image-counter">
+                    <span id="current-image">1</span> / <span id="total-images">1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="gallery-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Love What You See?</h2>
+                <p>Book your appointment to get your own custom nail design</p>
+                <a href="book.html" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>nailedbyalita</h3>
+                    <p>Professional nail artist creating beautiful, long-lasting nail designs.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Gel Manicures</a></li>
+                        <li><a href="services.html">Nail Art</a></li>
+                        <li><a href="services.html">Acrylic Nails</a></li>
+                        <li><a href="services.html">Nail Removal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="book.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="services.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (385) 499 7792</p>
+                    <p><i class="fas fa-envelope"></i> hello@lunanails.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kearns, UT</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 nailedbyalita. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

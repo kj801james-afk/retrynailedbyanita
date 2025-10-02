@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Test - nailedbyalita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-image {
+            height: 200px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 14px;
+        }
+        .gallery-info {
+            padding: 15px;
+        }
+        .gallery-info h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        .gallery-info p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+        }
+        .category-badge {
+            display: inline-block;
+            background: #ff9a9e;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nail Art Gallery - Image Placeholders</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            These are placeholder files. Replace with actual nail art images to see your gallery in action!
+        </p>
+        
+        <div class="gallery-grid">
+            <!-- Gel Nails -->
+            <div class="gallery-item">
+                <div class="gallery-image">Gel Nail Image 1</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Gel</span>
+                    <h3>Floral French Tips</h3>
+                    <p>Elegant V-shaped pink tips with floral details</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Gel Nail Image 2</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Gel</span>
+                    <h3>Blue French Tips</h3>
+                    <p>Classic gel French manicure with blue accents</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Gel Nail Image 3</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Gel</span>
+                    <h3>Charmed French</h3>
+                    <p>Nude base with white tips and delicate charms</p>
+                </div>
+            </div>
+            
+            <!-- Acrylic Nails -->
+            <div class="gallery-item">
+                <div class="gallery-image">Acrylic Nail Image 1</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Acrylic</span>
+                    <h3>Cow Print & Hello Kitty</h3>
+                    <p>Playful cow print with 3D Hello Kitty elements</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Acrylic Nail Image 2</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Acrylic</span>
+                    <h3>Gothic Extensions</h3>
+                    <p>Dramatic length with gothic charms and skulls</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Acrylic Nail Image 3</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Acrylic</span>
+                    <h3>Stiletto Spikes</h3>
+                    <p>Long stiletto nails with spikes and chains</p>
+                </div>
+            </div>
+            
+            <!-- Nail Art -->
+            <div class="gallery-item">
+                <div class="gallery-image">Nail Art Image 1</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Nail Art</span>
+                    <h3>Floral Magenta</h3>
+                    <p>Intricate floral designs with magenta French tips</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Nail Art Image 2</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Nail Art</span>
+                    <h3>Marble Gold</h3>
+                    <p>Luxurious marble effect with gold embellishments</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Nail Art Image 3</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Nail Art</span>
+                    <h3>Gothic Art</h3>
+                    <p>Dark gothic designs with crosses and blood effects</p>
+                </div>
+            </div>
+            
+            <!-- Minimalist -->
+            <div class="gallery-item">
+                <div class="gallery-image">Minimalist Image 1</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Minimalist</span>
+                    <h3>Classic French</h3>
+                    <p>Timeless nude French tips with gold accents</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Minimalist Image 2</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Minimalist</span>
+                    <h3>Gothic Minimal</h3>
+                    <p>Simple black French tips with silver crosses</p>
+                </div>
+            </div>
+            
+            <!-- Seasonal -->
+            <div class="gallery-item">
+                <div class="gallery-image">Seasonal Image 1</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Seasonal</span>
+                    <h3>Halloween Spooky</h3>
+                    <p>Halloween-themed with pumpkins and spider webs</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Seasonal Image 2</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Seasonal</span>
+                    <h3>Spring Pastels</h3>
+                    <p>Fresh spring designs with flowers and butterflies</p>
+                </div>
+            </div>
+            
+            <!-- Toes -->
+            <div class="gallery-item">
+                <div class="gallery-image">Toes Image 1</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Toes</span>
+                    <h3>Emerald & Gold</h3>
+                    <p>Coordinated hand and foot set with emerald green and gold</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="gallery-image">Toes Image 2</div>
+                <div class="gallery-info">
+                    <span class="category-badge">Toes</span>
+                    <h3>Matching French</h3>
+                    <p>Coordinated black French tips on hands and feet</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: white; border-radius: 10px;">
+            <h3>Next Steps:</h3>
+            <p>1. Replace the placeholder files in the <code>images/</code> folder with your actual nail art photos</p>
+            <p>2. Open <code>gallery.html</code> in your browser to see the full gallery with filtering</p>
+            <p>3. The images should be in JPG format and properly sized for best display</p>
+        </div>
+    </div>
+</body>
+</html>

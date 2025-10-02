@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test - nailedbyalita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .category {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .category h2 {
+            color: #ff9a9e;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ff9a9e;
+            padding-bottom: 10px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .image-item {
+            text-align: center;
+        }
+        .image-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .image-item img:hover {
+            transform: scale(1.05);
+        }
+        .image-item p {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nail Art Gallery - Image Test</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            Testing all organized nail art images
+        </p>
+        
+        <!-- Gel Nails -->
+        <div class="category">
+            <h2>Gel Nails</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/gel/gel-1.jpg" alt="Gel Nail 1" onerror="this.style.display='none'">
+                    <p>Gel 1</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/gel/gel-2.jpg" alt="Gel Nail 2" onerror="this.style.display='none'">
+                    <p>Gel 2</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/gel/gel-3.jpg" alt="Gel Nail 3" onerror="this.style.display='none'">
+                    <p>Gel 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Acrylic Nails -->
+        <div class="category">
+            <h2>Acrylic Nails</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/acrylic/acrylic-1.jpg" alt="Acrylic Nail 1" onerror="this.style.display='none'">
+                    <p>Acrylic 1</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/acrylic/acrylic-2.jpg" alt="Acrylic Nail 2" onerror="this.style.display='none'">
+                    <p>Acrylic 2</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/acrylic/acrylic-3.jpg" alt="Acrylic Nail 3" onerror="this.style.display='none'">
+                    <p>Acrylic 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nail Art -->
+        <div class="category">
+            <h2>Nail Art</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/nail-art/nail-art-1.jpg" alt="Nail Art 1" onerror="this.style.display='none'">
+                    <p>Nail Art 1</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/nail-art/nail-art-2.jpg" alt="Nail Art 2" onerror="this.style.display='none'">
+                    <p>Nail Art 2</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/nail-art/nail-art-3.jpg" alt="Nail Art 3" onerror="this.style.display='none'">
+                    <p>Nail Art 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Minimalist -->
+        <div class="category">
+            <h2>Minimalist</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/minimalist/minimalist-1.jpg" alt="Minimalist 1" onerror="this.style.display='none'">
+                    <p>Minimalist 1</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/minimalist/minimalist-2.jpg" alt="Minimalist 2" onerror="this.style.display='none'">
+                    <p>Minimalist 2</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seasonal -->
+        <div class="category">
+            <h2>Seasonal</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/seasonal/seasonal-1.jpg" alt="Seasonal 1" onerror="this.style.display='none'">
+                    <p>Seasonal 1</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/seasonal/seasonal-2.jpg" alt="Seasonal 2" onerror="this.style.display='none'">
+                    <p>Seasonal 2</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toes -->
+        <div class="category">
+            <h2>Toes</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="images/toes/toes-1.jpg" alt="Toes 1" onerror="this.style.display='none'">
+                    <p>Toes 1</p>
+                </div>
+                <div class="image-item">
+                    <img src="images/toes/toes-2.jpg" alt="Toes 2" onerror="this.style.display='none'">
+                    <p>Toes 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
